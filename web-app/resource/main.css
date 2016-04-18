@@ -1,0 +1,72 @@
+.grid:after{
+    content: "";
+    display: table;
+    clear: both;
+}
+.grid{
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+.calculateContent{
+    background: white;
+    display: block;
+    border: 1px solid blue;
+    border-radius: 10px;
+}
+
+.otherContent{
+
+}
+.personContent{
+    background: darkred;
+    height: 200px;
+}
+.realtyContent{
+    background: yellow;
+    height: 200px;
+}
+.commentContent{
+    background: gray;
+    height: 200px;
+}
+
+.calculateContent .calculateButton{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 50%;
+    margin-right: auto;
+}
+
+.calculateContent input{
+    margin-left: 5px;
+}
+
+.calculateContent .label{
+    margin-bottom: 10px;
+    display: inline-block;
+    text-align: right;
+    width: 150px;
+}
+.otherContent .label{
+    display: inline-block;
+    margin-right: 5px;
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+.label.po{
+    width: auto;
+    margin-left:5px;
+}
+.label.s{
+    width: auto;
+    margin-left:150px;
+}
+.label.reward{
+    margin-left: 300px;
+}
+.label.date{
+    margin-left: 385px;
+}
+
